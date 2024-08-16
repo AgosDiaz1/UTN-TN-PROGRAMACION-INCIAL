@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form>
+        <label for="nombre">ingrese su nombre:</label>
+        <!-- label le brinda accesibilidad, se usa para persona con discapacidad visual-->
+        <input type="text" minlength="5" maxlength="10" placeholder="Joe Doe" id="nombre" value="pepe">
+        <!-- placeholder es un texto que cuando nos paramos en el input se borra -->
+        <!-- input es la forma de ingresar datos -->
+        <label for="password">ingrese contraseña</label>
+        <input type="password" id="password" name="password">
+        <input type="number" min="1" max="10">
+        <input type="email" required>
+        <button type="button">generar contraseña</button>
+        <input type="submit">
+        
+
+        <input type="submit" value="Iniciar sesion">
+        <button type="submit" title="boton de registro">Registrar</button>
+        <button type="button">menu</button>
+        <label for="file">inserte archivo</label>
+        <input type="file" id="file">
+        <input type="datetime-local">
+
+        <!-- button type es envio de formulario, si no button es generico -->
+        <!-- requiered es un atributo es un requisito obligatorio -->
+        <label for="mensaje">Ingrese mensaje</label>
+        <textarea 
+            id="mensaje" 
+            maxlength="100" 
+            minlength="4" 
+            requiered placeholder="escribe alho aqui">Me gusta tu pagina web!
+        </textarea>
+        <br>
+        <span>seleciona tu lenjuage preferido</span>
+        <br>
+        <label for="html">HTML</label>
+        <input type="radio" name="seleccionarlenguaje" id="html"> <br>
+        <label for="html">CSS</label>
+        <input type="radio" name="seleccionarlenguaje" id="css"> <br>
+        <label for="html">JAVASCRIPT</label>
+        <input type="radio" name="seleccionarlenguaje" id="javascript"> <br>
+
+        <!-- Para que se seleccione solo una tiene que tener el mismo name="" -->
+        <span>Seleccione sus lenguajes concoidos</span><br>
+
+        <label for="html-conocido">HTML</label>
+        <input type="checkbox" name="lenguaje conocido" id="html-conocido"> <br>
+        <label for="css-conocido">CSS</label>
+        <input type="checkbox" name="lenguaje conocido" id="css-conocido"> <br>
+        <label for="javascript">JAVASCRIPT</label>
+        <input type="checkbox" name="lenguaje conocido" id="javascript-conocido"> <br><br>
+
+        <!-- Checkbox se utiliza para seleccionar todos juntos -->
+
+        <label for="pais">Seleccionar un pais</label> <br>
+        <select name="pais" id="pais">
+            <option value="AR">Argentina</option>
+            <option value="FR">Francia</option>
+            <option value="BR">Brasil</option>
+            <option value="nulo" selected>No seleccionar</option>
+            <option value="nulo" selected disabled>seleccionar</option>
+        </select>
+        
+    </form>
+
+
+
+</body>
+</html>
