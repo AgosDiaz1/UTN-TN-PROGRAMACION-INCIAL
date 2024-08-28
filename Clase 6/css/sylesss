@@ -1,0 +1,47 @@
+/* Le indico al navegador el texto dentro de esta etiqueta debe ser interpretado como Hoja de Estilos o (css) */
+
+/* SELECTOR UNIVERSAL */
+/* * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: aqua;
+} */
+
+
+/* Selectores */
+
+/* SELECTOR DE ID */
+/* #titulo-super-especial {
+    color: yellow
+} */
+
+
+/* SELECTOR DE CLASE */
+/* .titulo-especial {
+    color: red;
+    font-size: 50px;
+}
+ */
+
+/* SELECTOR DE ELEMENTOS */
+/* Tanto el h1 como el h2 tendran estos estilos */
+/* h1,
+h2 {
+    color: blueviolet !important;
+    background-color: black;
+    font-size: 80px;
+}
+
+
+
+.subrayado {
+    text-decoration: 1px solid underline rgb(64, 255, 0);
+}
+
+#placa {
+    color: brown;
+} */
+
+

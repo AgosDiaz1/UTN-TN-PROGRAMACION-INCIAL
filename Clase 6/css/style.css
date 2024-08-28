@@ -1,0 +1,87 @@
+
+
+/* PROPIEDADES */
+
+h2 { 
+    color: gray;
+    font-size: 24px;
+    letter-spacing: 1px; /* espaciador de letras */
+    word-spacing: 10px;
+    text-decoration:color-mix(in  shorter hue, color percentage, color percentage)(9, 85, 33) 40px wavy overline ;
+    /* 
+    4 valotres recibe: 
+    color, 
+    tamaño, 
+    tipo, solid, wavy, dashed, dotted, double,
+    ubicacion: overline, line-teough, underline
+    si pones none, matas al estilo (osea ya no funcionaria)
+    */
+    text-align: center;
+    text-shadow: 2px -2px 2px rgb(230, 137, 137),
+    -4px 4px 2px green,
+    -2px 2px 2px rgb(212, 192, 255)
+    ;
+
+    /*
+    text-shadow;
+    x 
+    y
+    difuminado/blur
+    color
+     */
+
+    
+    
+}
+
+p {
+    line-height: 40px; /* espaciado entre lineas */
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    box-shadow: 
+    1px 1px 2px 3px rgb(127, 124, 124),
+    inset 0 0 3px rgb(114, 111, 111) 
+    ;
+}
+
+.tachado{
+    text-decoration: 1px red solid line-through;
+}
+
+
+
+
+
+/* 
+propiedades de texto
+propiedades de backgroun
+propiedades de border
+propiedades de box
+
+Nos permites posucion elementos:
+-float (ya no se usa)
+-flexbox (super importante)
+-grid
+-position
+
+Diseño reponsivo:
+Mediaquerys
+
+Animaciones y transiciones
+@keyframes
+
+*/
+
+
+
+
+
+
+
+
+
